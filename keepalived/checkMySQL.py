@@ -2,7 +2,7 @@
 #coding: utf-8
 #http://zhishuedu.com
 #Copyriht(c) 2017 - wubx(wubx@zhishuedu.com)
-
+from __future__ import print_function
 import sys
 import subprocess
 import getopt
@@ -10,7 +10,6 @@ import MySQLdb
 import logging
 import filelock
 import config
-from __future__ import print_function
 
 dbhost=config.dbhost
 dbport=config.dbport
